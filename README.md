@@ -4,10 +4,17 @@
 
 ## ビルド
 
+```shell
+$ make build
 ```
-GOOS=linux GOARCH=amd64 go build -o main main.go
+
+## リリースビルド
+
+```shell
+$ make
 ```
 
 ## 参照
 
 - https://github.com/aws/aws-lambda-go
+- https://future-architect.github.io/articles/20210602a/
